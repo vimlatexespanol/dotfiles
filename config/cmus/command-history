@@ -1,0 +1,82 @@
+add Música/libre/
+add podcasts/
+add Música/podcast/
+add Música/libre/Dudu-Bloo.mp3
+add 01.mp3
+add chilladera.mp3
+add Chilladera.mp3
+add winamp-itunes (1).pls
+add 2018-08-27-dispara.mp3
+add Música/The Mars Volta/
+add prueba.mp3
+add Descargas/Les_Toreadors_from_Carmen_by_Bizet.mp3
+add Descargas/Accordion.mp3
+q
+add NSAvsKII02.mp3
+add Birds_in_Flight.mq
+add NSAvsKII01.mp3
+add /media/eduardo/2021-3955/NSAvs/01vsKaboomPt2/NSAvsKII01.mp3
+add NSAvsKII0*
+add NSAvsKII03.ogg
+add NSAvsKII02.ogg
+add NSAvsKII01.ogg
+add silencio.mp3
+add winamp-itunes.pls
+filter 
+add Música/momos/
+add Descargas/CG-E674-201807y
+add Música/
+add ~/Música
+add *
+add Música
+add OnMelancolyHill.mp3
+add Música/OnMelancolyHill.mp3
+add YA REGRESAMOS - ESCUCHANDO KATUN MEDIA MAYO 17.mp3
+add Descargas/TSW.Episodio263.mp3
+add CG-E675-20180710.m4a
+add CG-E674-20180702.m4a
+add *.m4a
+add DERP.mp3
+up
+add Música/Steven Wilson - To The Bone (2017)/
+add podcasts/2018-07-05-dispara.mp3
+add 2018-07-02-dispara.mp3
+add hola.mp3
+set repeat=true
+set repeat=false
+set repeat=fals
+add Música/libre/Monkeys Spinning Monkeys.mp3
+add Música/libre/Spazzmatica Polka.mp3
+add Descargas/CG-E673-20180625.m4a
+add Música/NOSTALGIC.mp3
+add Música/LinuxIsTheWildWest.mp3
+add Música/Zeldawave.mp3
+add Música/BigEnough.mp3
+add Música/Jim Croce - Greatest Hits - Time In A Bottle.mp3
+add audio.mp3
+add Música/AmericanPie.mp3
+add Música/YouFuckingLoveIt.mp3
+bind -f common N search-prev
+add Música/chaconeadosDeYoutube/
+add Música/Steven Wilson - Hand. Cannot. Erase. (2015)ak/
+add ¿Con Quién Se Queda El Perro_ (Versión D/
+add MTV Unplugged/
+add Steven Wilson - To The Bone (2017)/
+add Música/Steven Wilson - The Raven That Refused To Sing (And Other Stories) [Deluxe Edition]/
+add Arctic Monkeys - Tranquility Base Hotel & Casino - 2018/
+add Música/Arctic Monkeys - Tranquility Base Hotel & Casino - 2018/
+<
+add:
+add Música/Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/
+bind common <key> set
+set passwd=
+set show_current_bitrate=false
+set show_current_bitrate=true
+add sootopolis-theme.mp3
+add Música/chaconeadosDeYoutube/sootopolis-theme.mp3
+clear
+save
+w
+add ~/Música/chaconeadosDeYoutube/
+add Música/Pokemon Silver_Gold_Crystal - Gym-gOg1sj1abyw.mp3
+add /media/eduardo/Disco duro/Users/GODINEZ/Music/iTunes/
