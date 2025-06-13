@@ -1,0 +1,3 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://gitlab.com/vimlatexespanol/init.lua.git

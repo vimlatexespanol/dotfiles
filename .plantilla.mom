@@ -1,0 +1,9 @@
+.do mso mom.tmac
+.TITLE "<++>"
+.AUTHOR "<++>"
+.PAPER LETTER
+.PRINTSTYLE TYPESET
+.START
+.HEADING 1 "<++>
+.PP
+<++>
