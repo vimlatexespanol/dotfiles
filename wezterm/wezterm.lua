@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 
 -- fontsettings
 config.font_size = 12
-config.font = wezterm.font("Noto Sans Mono")
+config.font = wezterm.font("JetBrains Mono")
 
 -- Colores
 

@@ -12,6 +12,9 @@ PS1='[\u@\h \W]\$ '
 if [ -d "$HOME/.local/bin" ]; then
     PATH="$PATH:$HOME/.local/bin"
 fi
+if [ -d "$HOME/.cargo/bin" ]; then
+    PATH="$PATH:$HOME/.cargo/bin"
+fi
 export EDITOR="nvim"
 #export TERMINAL="xfce4-terminal"
 export TERMINAL="wezterm"
