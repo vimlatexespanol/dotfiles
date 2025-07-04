@@ -21,8 +21,8 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 
-export TERMINAL=wezterm
-export BROWSER=brave-browser
+export TERMINAL=ghostty
+export BROWSER=brave
 killall plank -9
 exec ~/.config/polybar/launch.sh &
 feh --bg-scale ~/.config/bspwm/wallpaper.jpg &
@@ -31,3 +31,6 @@ emacs --daemon &
 udiskie --no-tray --automount --notify &
 xset +fp /home/eduardo/.local/share/fonts &
 xset fp rehash &
+setxkbmap -layout latam &
+xsetroot -cursor_name left_ptr &
+udiskie &

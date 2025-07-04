@@ -8,24 +8,24 @@
 
 # Terminal con tmux
 super + Return
-	wezterm -e tmux
+	ghostty -e tmux
 
 super + shift + Return
-	wezterm
+	ghostty
 
 # Explorador de archivos Terminal
 super + x
-      	wezterm -e ~/.local/bin/lfrun
+      	ghostty -e ~/.local/bin/lfrun
 	
 super + shift + i
 	pcmanfm
 # Navegador
 super + w
-	brave-browser
+	brave
 
 # Conexión Wi-fi con nmtui
 super + shift + w
-	wezterm -e nmtui
+	ghostty -e nmtui
 
 # Emacs
 super + shift + e
@@ -53,10 +53,10 @@ super + shift + b
       	exec ~/.local/bin/oculta
 
 super + i
-      	wezterm -e htop
+      	ghostty -e htop
 
 super + period
-	exec ~/.local/bin/dmenuunicode
+	exec ~/.local/bin/rofiunicode
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -136,10 +136,10 @@ super + g
 	bspc node -s biggest.window
 
 super + c
-	wezterm -e cmus
+	ghostty -e cmus
 
 super + shift + c
-	wezterm -e calcurse
+	ghostty -e calcurse
 
 super + shift + o
       	pcmanfm ~/Documentos/Oficina

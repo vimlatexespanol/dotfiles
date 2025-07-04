@@ -1,0 +1,24 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": ["network", "battery", "clock"],
+
+  "clock": {
+      "format": "🕓 {:%H:%M %d/%m/%Y}"
+  },
+
+  "battery": {
+    "format": "🔋 {capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
+    "interval": 30
+  },
+
+  "network": {
+    "format-wifi": "📶 {essid}",
+    "format-ethernet": "🌐 {ifname}",
+    "format-disconnected": "❌",
+    "interval": 10
+  }
+}

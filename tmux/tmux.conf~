@@ -1,0 +1,12 @@
+# Colores de la barra de estado
+set -g status-bg colour235     # Fondo oscuro
+set -g status-fg colour136     # Texto ambar
+set -g status-style bold
+
+# Ventanas activas/inactivas
+set-window-option -g window-status-current-style bg=colour240,fg=colour33
+set-window-option -g window-status-style bg=colour235,fg=colour250
+
+# Colores del borde de los paneles
+set -g pane-border-style fg=colour238
+set -g pane-active-border-style fg=colour45
