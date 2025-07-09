@@ -55,6 +55,12 @@ super + shift + b
 super + i
       	ghostty -e htop
 
+super + n
+	ghostty -e ncmpcpp
+
+super + shift + n
+	ghostty -e rmpc
+
 super + period
 	exec ~/.local/bin/rofiunicode
 
