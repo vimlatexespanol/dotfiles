@@ -2,30 +2,33 @@
 # wm independent hotkeys
 #
 
+super + a
+        wezterm
+
 # terminal emulator
 #super + Return
 #	xfce4-terminal
 
 # Terminal con tmux
 super + Return
-	ghostty -e tmux
+	wezterm -e tmux
 
 super + shift + Return
-	ghostty
+	wezterm
 
 # Explorador de archivos Terminal
 super + x
-      	ghostty -e ~/.local/bin/lfrun
+      	wezterm -e ~/.local/bin/lfrun
 	
 super + shift + i
 	pcmanfm
 # Navegador
 super + w
-	brave
+	brave-browser
 
 # Conexión Wi-fi con nmtui
 super + shift + w
-	ghostty -e nmtui
+	wezterm -e nmtui
 
 # Emacs
 super + shift + e
@@ -46,6 +49,12 @@ super + shift + r
 super + e
 	thunderbird
 
+super + shift + p
+	killall picom -9
+
+super + p
+	picom &
+
 super + b
 	polybar-msg cmd toggle
 
@@ -53,7 +62,7 @@ super + shift + b
       	exec ~/.local/bin/oculta
 
 super + i
-      	ghostty -e htop
+      	wezterm -e htop
 
 super + n
 	ghostty -e ncmpcpp
@@ -101,7 +110,7 @@ shift + Print
 	xfce4-screenshooter
 
 Print
-	import -window root ~/Imágenes/capturas/Captura-de-Pantalla-$(date +'%Y%m%d-%H%M%S').png
+	maim ~/Imágenes/capturas/Captura-de-Pantalla-(date +'%Y%m%d-%H%M%S').png
 
 # Teclas multimedia
 
@@ -142,10 +151,10 @@ super + g
 	bspc node -s biggest.window
 
 super + c
-	ghostty -e cmus
+	wezterm -e cmus
 
 super + shift + c
-	ghostty -e calcurse
+	wezterm -e calcurse
 
 super + shift + o
       	pcmanfm ~/Documentos/Oficina

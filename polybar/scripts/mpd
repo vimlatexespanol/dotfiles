@@ -1,0 +1,14 @@
+#!/bin/bash
+
+status=$(mpc -p 6601 status | awk 'NR==2 {print $1}')
+info=$(mpc -p 6601 current)
+
+case "$status" in
+  "[playing]") icon="" ;;   # fa-music
+  "[paused]")  icon="" ;;   # fa-pause
+  *) exit 0 ;;               # Ocultar si está en stop o vacío
+esac
+
+[[ -z "$info" ]] && exit 0
+
+echo "$icon $info"
